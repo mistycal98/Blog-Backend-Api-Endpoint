@@ -31,7 +31,7 @@ app.get("/blogs", (req, res) => {
 
 app.get("/blogs/:id", (req, res) => {
   let data = userData.find((user) => {
-    return (user = user.id);
+    return (user.id == req.params.id);
   });
   if (data) {
     res.status(200).json({
@@ -47,5 +47,5 @@ app.get("/blogs/:id", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server started on Port ${port}`);
+  console.log(`Server started on http://localhost:${port}`);
 });
