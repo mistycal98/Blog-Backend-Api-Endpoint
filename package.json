@@ -1,0 +1,32 @@
+{
+  "name": "blog-backend-api-endpoint",
+  "version": "1.0.0",
+  "description": "This is an Node js Assignment for Node js Training of Raw Engineering which is back end server for getting all blogs and get specific blog by id by putting id in url as parameter.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistycal98/Blog-Backend-Api-Endpoint.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "assignment",
+    "blog",
+    "backend",
+    "api",
+    "endpoint"
+  ],
+  "author": "Tushar Mistry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mistycal98/Blog-Backend-Api-Endpoint/issues"
+  },
+  "homepage": "https://github.com/mistycal98/Blog-Backend-Api-Endpoint#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
