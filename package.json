@@ -4,7 +4,9 @@
   "description": "This is an Node js Assignment for Node js Training of Raw Engineering which is back end server for getting all blogs and get specific blog by id by putting id in url as parameter.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app.js",
+    "dev" : "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,8 @@
   },
   "homepage": "https://github.com/mistycal98/Blog-Backend-Api-Endpoint#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.6"
   }
