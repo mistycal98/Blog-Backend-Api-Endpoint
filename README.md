@@ -25,11 +25,13 @@ Node.js project made with express.js which serves blogs data
 -  [npm](https://www.npmjs.com/) - Node Package Manager
 
 ## Run The Project 
+```
 > npm install 
-
+```
 This installs all the dependencies to your project
+```
 >  npm run start 
-
+```
 This starts a server on http://localhost:3000 and you can now [fetch](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data) data from the api 
 
 ## Deployment using Heroku
